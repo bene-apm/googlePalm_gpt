@@ -2,7 +2,7 @@ import sklearn
 import streamlit as st
 from langchain.llms import GooglePalm
 
-api_key = 'AIzaSyCKcyonzw4Z1CYwuNPo_lEjgQFrlqGJH_Y'
+api_key = 'Your API Key'
 
 llm = GooglePalm(google_api_key = api_key, temperature = 0.9)
 
